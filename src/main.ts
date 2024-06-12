@@ -10,7 +10,7 @@ async function bootstrap() {
     credentials: true,
   });
 
-  await app.listen(process.env.PROD_URL);
+  await app.listen(5000);
 
   console.log(`Application is running on: ${await app.getUrl()}`);
 }
